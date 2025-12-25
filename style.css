@@ -1,0 +1,61 @@
+
+body {
+    font-family: 'Tahoma', 'Arial', sans-serif;
+    background: #008080;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #000;
+}
+.window {
+    background: #c0c0c0;
+    border: 2px solid #000;
+    width: 90%;
+    max-width: 700px;
+    padding: 10px;
+}
+.title-bar {
+    background: navy;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+.window-body {
+    background: white;
+    padding: 10px;
+}
+.icon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.icon {
+    width: 90px;
+    text-align: center;
+}
+.icon img {
+    width: 48px;
+    height: 48px;
+}
+.label {
+    margin-top: 5px;
+    font-size: 12px;
+    white-space: pre-line;
+}
+.back-button {
+    margin-top: 20px;
+    text-align: center;
+}
+.back-button a {
+    display: inline-block;
+    background: navy;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+}
